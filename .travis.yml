@@ -10,7 +10,7 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
   app: "travis"
-  env: "Travis-env"
+  env: "Travis-env-2"
   bucket_name: "elasticbeanstalk-us-east-1-244815535546"
   bucket_path: "travis"
   on:
