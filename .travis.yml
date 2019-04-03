@@ -6,6 +6,7 @@ before_install:
 
 script:
   - docker run alfalavi/docker-react npm run test -- --coverage
+
 deploy: 
   provider: elasticbeanstalk
   region: "us-east-1"
